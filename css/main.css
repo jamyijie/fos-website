@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+/*-------------------fonts and buttons--------------------*/
+
+html {
+  font-size: 25px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: #f3e7d7;
+  color: #1e1e1e;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: "Bagel Fat One";
+  font-size: 3.2rem;
+  color: #018780;
+}
+
+h2 {
+  font-family: "Chivo";
+  font-size: 1.6rem;
+  line-height: 55px;
+}
+
+h3 {
+  font-family: "Bebas Neue";
+  font-size: 1.44rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.red-button {
+  background-color: #ed775b;
+  color: #1e1e1e;
+  display: inline-block;
+  padding: 20px 32px;
+
+  border-radius: 20px;
+}

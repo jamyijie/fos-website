@@ -273,6 +273,7 @@ footer {
   align-items: center;
   gap: 1.5rem;
   margin-bottom: 5rem;
+  margin-top: 10rem;
 }
 .side-text {
   width: 80%;
@@ -288,4 +289,17 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+.side-text-bar-with-number {
+  border-radius: 20px;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.side-text-bar-with-number h2{
+  color: #6B4C3B;
 }

@@ -250,22 +250,6 @@ footer {
   background-color: #ff9f48;
 }
 /*-----mainblog-------*/
-.side-text-left {
-  width: 40%;
-
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-
-}
-.side-text-right {
-  width: 60%;
-
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-
-}
 .criteria-section {
   display: flex;
   justify-content: space-around;
@@ -274,81 +258,34 @@ footer {
   background-color: #6B4C3B; /* Brown background from second image */
   color: white;
 }
-.criteria-section-no-colour {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 40px;
-  color: white;
-}
 .criteria-item {
   text-align: center;
   max-width: 200px;
   margin: 20px;
 }
-.why-choose-container {
+.two-grid-column {
+  height: 80vh;
+  padding: 3rem;
+
   display: flex;
-  justify-content: flex-start; /* aligns to the left */
-  align-items: center;         /* centers vertically */
-  gap: 89px;
-  padding: 40px 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 5rem;
 }
+.side-text {
+  width: 80%;
 
-.text-column {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  width: 593px;
-  background-color: transparent;
-  position: relative;
-}
-.heading {
-  font-size: 40px;
-  font-family: 'Chivo', sans-serif;
-  font-weight: 600;
-  color: #1E1E1E;
-}
-
-.description {
-  font-size: 25px;
-  font-family: 'Poppins', sans-serif;
-  color: black;
-}
-
-.criteria-section {
-  display: flex;
-  gap: 32px;
-}
-
-.numbers-column {
   display: flex;
   flex-direction: column;
-  gap: 86px;
+  gap: 1.5rem;
 }
 
-.criteria-number {
-  font-size: 60px;
-  font-family: 'Bebas Neue', sans-serif;
-  color: #966D4D;
-}
+.side-text-bar-column {
+  width: 100%;
 
-.criteria-content {
-  width: 944px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-}
-
-.criteria-block h3 {
-  font-size: 36px;
-  font-family: 'Bebas Neue', sans-serif;
-  margin: 0;
-  color: black;
-}
-
-.criteria-block p {
-  font-size: 25px;
-  font-family: 'Poppins', sans-serif;
-  margin-top: 8px;
-  color: black;
+  gap: 2rem;
 }

@@ -14,6 +14,7 @@ html {
 h1,
 h2,
 h3,
+h4,
 p,
 a {
   margin-top: 0;
@@ -35,6 +36,11 @@ h2 {
 h3 {
   font-family: "Bebas Neue";
   font-size: 1.44rem;
+}
+
+h4 {
+  font-family: "Bebas Neue";
+  font-size: 0.8rem;
 }
 
 p {
@@ -203,6 +209,15 @@ header nav ul {
   width: 95%;
   text-align: left;
 }
+.small-middle-aligns h4 {
+  width: 95%;
+  text-align: left;
+}
+.small-middle-aligns .in-text-button {
+  width: 95%;
+  text-align: left;
+}
+
 /*------------------columns ---------------*/
 
 .three-column {
@@ -376,4 +391,51 @@ footer {
 .background-colour{
   background-color: #A1561C;
   padding:3rem;
+}
+/*---------in text button---------*/
+.in-text-button {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: #B95959;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 1rem;
+  position: relative;
+  
+}
+
+.in-text-button .text {
+  position: relative;
+}
+
+.in-text-button .text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 3px;
+  background-color: #B95959;
+  transition: width 0.4s ease;
+}
+
+.in-text-button:hover .text::after {
+  width: 100%;
+}
+
+.in-text-button .arrow {
+  color: #2F0808;
+  transition: transform 0.3s ease;
+}
+
+.in-text-button:hover .arrow {
+  transform: translateX(8px);
+}
+/*--------------blog---------------*/
+#blog  {
+  border: 10px;
+  width: 100%;
+  padding: 0rem;
+  margin-top: 8rem;
 }

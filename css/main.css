@@ -184,6 +184,25 @@ header nav ul {
   width: 70%;
   text-align: center;
 }
+.small-middle-aligns {
+  height: 60vh;
+  padding: 0rem;
+  border-radius: 30px;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-right: 3rem;
+}
+.small-middle-aligns p {
+  width: 95%;
+  text-align: left;
+}
 /*------------------columns ---------------*/
 
 .three-column {
@@ -262,6 +281,7 @@ footer {
   text-align: center;
   max-width: 500px;
   margin: 2rem;
+  margin-top: 3rem;
 }
 .two-grid-column {
   height: 80vh;
@@ -272,8 +292,8 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  margin-bottom: 5rem;
-  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-top: 15rem;
 }
 .side-text {
   width: 80%;
@@ -317,4 +337,43 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 5rem;
+}
+/*-----------news in blog---------*/
+.text-content {
+  flex: 1;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 50%;
+  margin-top: 5.6rem;
+}
+
+.image-content img {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+.two-grid-columns {
+  height: auto;
+  padding: 3rem 5rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+/*------pading for button and h2------*/
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 33rem;
+}
+.background-colour{
+  background-color: #A1561C;
+  padding:3rem;
 }

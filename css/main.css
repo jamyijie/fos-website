@@ -126,7 +126,7 @@ header {
   align-items: center;
 }
 
-header nav ul {
+.top-nav {
   display: flex;
   flex-direction: row;
 

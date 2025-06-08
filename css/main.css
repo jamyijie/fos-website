@@ -167,7 +167,21 @@ header nav ul {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+.middle-align-sections {
+  height: auto;
+  background-color: #966d4d;
+  color: #966d4d;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+}
 .middle-align-text {
   text-align: center;
   width: 65%;
@@ -501,3 +515,34 @@ footer {
   border-radius: 1rem;
   object-fit: cover;
 }
+/*-___----------h3 in support---------*/
+#donate h3{
+  color:black;
+}
+/*--------other hero-------*/
+#hero-mainblog h1{
+  color: #018780;
+}
+/*-----------text-box------*/
+.dark-text-box {
+  height: 60vh;
+  background-color:#ff9f48;
+  padding: 1rem;
+  border-radius: 30px;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+#note h3{
+  text-align: right;
+  align-items: right;
+}
+#donate-background{
+  background-color: #966d4d;
+}
+
